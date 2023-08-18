@@ -1,0 +1,27 @@
+.container_product {
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+  }
+
+.discount_text_red {
+    margin: 0rem;
+    color: #DC0D0D;
+    font-family: 'Bungee Inline', cursive;
+    text-decoration: line-through;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
